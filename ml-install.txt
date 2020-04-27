@@ -1,0 +1,72 @@
+Setup your homework environment
+===============================
+
+This guide will help you install conda and create the ml conda environment
+required for your homework assignments. If you have an up to date conda
+version installed you can skip the first step. (To update conda run
+'conda update anaconda' or if you have miniconda installed 'conda update conda'.)
+
+a) Install Conda
+----------------
+
+Your assignments will be send to you and submitted by you as Jupyter notebooks,
+which requires Python. Moreover, we need additional Machine Learning packages.
+
+They are best managed with Anaconda:
+
+Download and install Anaconda:
+https://www.anaconda.com/distribution/#download-section
+that contains all important Python packages.
+
+Alternatively: If you have limited disk space install Miniconda:
+https://docs.conda.io/en/latest/miniconda.html .
+
+Select your Operating System under the section Regular installation on
+https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+and follow the installation instructions on the web site.
+
+
+b) Setup the ml environment
+----------------------------
+
+Download ml.yml from StudIP. Then in a terminal navigate to the
+directory where you saved ml.yml and run
+
+    'conda env create -f ml.yml'
+
+
+c) Activate the environment
+---------------------------
+
+Always activate the environment when you work on the homework:
+
+    'conda activate ml'
+
+To deactivate an environment:
+
+    'conda deactivate'
+
+
+d) Run Jupyter Notebooks
+------------------------
+
+After you installed Python and the ml environment verify you are able
+to run the notebook server by opening your command line
+
+  jupyter notebook
+
+Usually a browser window should open up. If not, open your favorite
+webbrowser and navigate to localhost:8888/tree.
+
+
+e) Documentation
+------------------------
+HowTo jupyter notebook:
+https://jupyter-notebook.readthedocs.io/en/stable/notebook
+
+
+For more information on Conda refer to the Conda Documentation:
+https://conda.io/projects/conda/en/latest/index.html
+
+For Jupyter:
+https://jupyter.org/documentation
