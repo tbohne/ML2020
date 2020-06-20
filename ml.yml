@@ -12,3 +12,4 @@
    - seaborn
    - graphviz
    - python-graphviz
+   - imageio
